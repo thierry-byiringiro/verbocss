@@ -10,7 +10,7 @@
 
 .he {
     display: flex;
-    gap: 25em;
+    gap: 20em;
     background-color: white;
     font-size: 20px;
     height: 80px;
@@ -24,20 +24,20 @@
 
 .menu ul li {
     float: left;
-    padding: 2px;
+    padding: 10px;
 }
 
 ul li {
     list-style: none;
 }
 
-h2 {
+.h2 {
     margin-top: 13px;
     color: blue;
     margin-left: 30px;
 }
 
-h2 sup {
+.h2 sup {
     font-size: 22px;
 }
 
@@ -281,4 +281,49 @@ span {
     width: 20%;
     margin-top: 12px;
 
+}
+.iconsm{
+   display: flex;
+   width: 70%;
+   margin-left: 270px;
+
+}
+.iconsm .ico{
+    width: 30%;
+}
+.iconsm .ico img{
+    width: 10%;
+}
+.bigpic{
+    height: 500px;
+    position: relative;
+    width: 73%;
+    background-image: url("/pics/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg");
+    margin-left: 270px;
+    border-radius: 12px;
+
+}
+.but{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: blueviolet;
+    color: white;
+}
+
+ .textinside{
+    width: 30%;
+    height: 65%;
+    margin-top: 100px;
+    color: #191e3b;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    /* font-size: 15px;    */
+    padding: 20px;
+}
+.textinside p{
+    position: absolute;
+    padding-left: 20px;
 }
