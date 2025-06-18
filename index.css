@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     bottom: 0;
-
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .he {
     display: flex;
-    gap: 30em;
+    gap: 25em;
     background-color: white;
     font-size: 20px;
     height: 80px;
@@ -22,7 +24,7 @@
 
 .menu ul li {
     float: left;
-    padding: 5px;
+    padding: 2px;
 }
 
 ul li {
@@ -34,8 +36,9 @@ h2 {
     color: blue;
     margin-left: 30px;
 }
-h2 sup{
-    font-size: 12px;
+
+h2 sup {
+    font-size: 22px;
 }
 
 .cent {
@@ -47,21 +50,21 @@ h2 sup{
 
 }
 
-.frm  {
-    background-color:#f7f7f8;
+.frm {
+    background-color: #f7f7f8;
     margin-top: 350px;
     margin-left: 290px;
     width: 63%;
     height: 10%;
     justify-content: center;
     border-radius: 15px;
-    position:absolute;
+    position: absolute;
 }
 
 input[type="text"],
 input[type="date"] {
     margin-top: 18px;
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 17px;
     padding: 10px 45px;
     gap: 10em;
@@ -80,7 +83,8 @@ input[type="submit"] {
     color: white;
     border-radius: 12px;
 }
-.cent h3{
+
+.cent h3 {
     position: absolute;
     margin-top: 300px;
     margin-left: 290px;
@@ -88,7 +92,7 @@ input[type="submit"] {
     color: white;
 }
 
-.mssg{
+.mssg {
     margin-top: 50px;
     margin-left: 270px;
     width: 60%;
@@ -97,20 +101,23 @@ input[type="submit"] {
     border-radius: 12px;
     display: flex;
     gap: 1em;
-    
+
 
 }
-.mssg img{
+
+.mssg img {
     width: 5%;
     background-color: #aed1f3;
     border-radius: 20px;
 }
-.mssg p{
+
+.mssg p {
     color: white;
     font-weight: bold;
     margin-top: 12px;
 }
-.mssg button{
+
+.mssg button {
     background-color: #327dee;
     color: white;
     border-radius: 20px;
@@ -119,18 +126,20 @@ input[type="submit"] {
     border: none;
 }
 
-.cardsh{
+.cardsh {
     margin-left: 270px;
     display: flex;
 
 }
- span{
+
+span {
     font-weight: bold;
     font-size: 22px;
     margin-left: 270px;
 
 }
-.cardsh  .card{
+
+.cardsh .card {
     width: 15%;
     height: 35vh;
     background-image: url('/pics/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg');
@@ -140,28 +149,36 @@ input[type="submit"] {
     border-radius: 10px;
 
 }
-.card p{
-color: white;
-margin-top: 250px;
-margin-left: 20px;
-position: absolute;
-bottom: 0;
-font-size: 22px;
+
+.card p {
+    color: white;
+    margin-top: 250px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0;
+    font-size: 22px;
 }
-.card{
+
+.card {
     text-align: bottom;
 }
 
 
-.cardsho{
+.cardsho {
     margin-left: 270px;
     display: flex;
 
 }
-.txt{
+
+.txt {
     margin-left: 270px;
 }
-.cardsho  .card{
+
+.txti {
+    margin-left: 270px;
+}
+
+.cardsho .card {
     width: 20%;
     height: 18vh;
     background-image: url('/pics/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg');
@@ -171,25 +188,97 @@ font-size: 22px;
     border-radius: 10px;
 
 }
-.cap{
+
+.cap {
     margin-top: 160px;
-        
+
 }
-.cap button{
-     background-color: #227850;
-     color: white;
-     border-radius: 5px;
-     border: none;
-     padding: 5px;
+
+.cap button {
+    background-color: #227850;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
 }
-.bigs{
+
+.bigs {
     display: flex;
     margin-left: 270px;
     width: 70%;
-    
+
 }
-.bigs img{
-  width: 50%;
-  height: 7%;
-  border-radius: 12px;
+
+.bigs .imgs img {
+    width: 104%;
+    height: 98%;
+    border-radius: 12px;
+}
+
+.cardshol {
+    margin-left: 270px;
+    display: flex;
+
+}
+
+.cardshol .cardi {
+    width: 20%;
+    height: 18vh;
+    background-image: url('/pics/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.capp {
+    margin-top: 160px;
+
+}
+
+.capp button {
+    background-color: #227850;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.small {
+    display: flex;
+    margin-left: 270px;
+    margin-top: 280px;
+    border: 1px solid;
+    width: 70%;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.small .car {
+    width: 44%;
+    height: 35vh;
+    background-image: url('/pics/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-left: 35px;
+
+}
+
+.car p {
+    color: white;
+    margin-top: 250px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0;
+    font-size: 22px;
+}
+
+.p {
+    width: 20%;
+    margin-top: 12px;
+
 }
