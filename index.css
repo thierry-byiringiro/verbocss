@@ -327,3 +327,41 @@ span {
     position: absolute;
     padding-left: 20px;
 }
+
+.te{
+    margin-left: 270px;
+    width: 75%;
+    height: 4%;
+}
+
+.te t{
+    height: 5%;
+}
+.dest{
+    margin-left: 270px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #191e3b;
+}
+.dest ul li{
+    padding: 10px;
+}
+.footer{
+    width: auto;
+    height:540px;
+    background-color: #f7f7f8;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+.footer ul li {
+    color: #167ee8;
+}
+.footer h1{
+    color: #191e53;
+}
+
+.first ul li{
+    padding: 10px;
+}
